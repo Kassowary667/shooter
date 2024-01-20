@@ -30,6 +30,8 @@ pygame.mixer.music.load("space.ogg")
 pygame.mixer.music.play(-1)
 blue_lst = []
 
+print(7**6)
+
 class Main:  # Створення класу
     def __init__(self, image_PATH, speed, x, y, a, b, HP):
         self.image_PATH = image_PATH
