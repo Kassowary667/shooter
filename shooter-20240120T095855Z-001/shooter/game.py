@@ -42,7 +42,7 @@ class Main:  # Створення класу
         self.square = self.image.get_rect(center=(self.x, self.y))
         self.HP = HP
 
-
+print("Error")
 hero = Main("rocket.png", [15, 0], 500, 450, 80, 140, 3)
 
 bg = pygame.image.load("galaxy.jpg")  # Створюємо задній фон
